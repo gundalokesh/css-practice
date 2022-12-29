@@ -1,0 +1,28 @@
+.table{
+    
+    
+ border: 1px solid rgb(105, 202, 235);
+  width :50%;
+  text-align: center;
+    
+    color: rgb(243, 97, 6);
+}
+.table th{
+    text-align: left;
+    background-color: aquamarine;
+
+}
+.table td,.table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+.table tr:nth-child(odd){
+    background-color: #05dbeb;
+}
+.table td:hover{
+    background-color: violet;
+}
+button:hover{
+
+    position:fixed;
+}
